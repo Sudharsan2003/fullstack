@@ -1,0 +1,84 @@
+/* styles.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .about-agro-funds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-content {
+    flex: 0 1 60%;
+  }
+  
+  .about-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .image-container {
+    flex: 0 1 35%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .social-media {
+    margin-bottom: 50px;
+  }
+  
+  .social-media h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    margin: 0 15px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    margin-right: 30px;
+    font-size: 1.1em;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
