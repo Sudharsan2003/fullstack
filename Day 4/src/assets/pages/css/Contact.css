@@ -1,0 +1,54 @@
+/* Contact.css */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-card {
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+}
+
+.contact-card h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.basic-details p,
+.social-media p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.basic-details strong,
+.social-media strong {
+  font-weight: bold;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-media ul li {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.social-media ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.social-media ul li a:hover {
+  text-decoration: underline;
+}
