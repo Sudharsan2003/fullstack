@@ -1,0 +1,53 @@
+/* KisanCreditScheme.css */
+
+.kisan-credit-scheme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.kisan-credit-scheme-card {
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+}
+
+.kisan-credit-scheme-card h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.kisan-credit-scheme-card h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.kisan-credit-scheme-card p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.kisan-credit-scheme-card ul,
+.kisan-credit-scheme-card ol {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.kisan-credit-scheme-card li {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.kisan-credit-scheme-card p:last-child {
+  margin-bottom: 0;
+}
