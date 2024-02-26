@@ -1,0 +1,11 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('./assets/pages/blue.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+}
