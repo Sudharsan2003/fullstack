@@ -1,0 +1,46 @@
+/* Eligibility.css */
+
+.eligibility-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.eligibility-card {
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+}
+
+.eligibility-card h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.eligibility-card p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.eligibility-card ul,
+.eligibility-card ol {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.eligibility-card li {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.eligibility-card p:last-child {
+  margin-bottom: 0;
+}
